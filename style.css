@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+  }
+.navbarclass{
+    background-color:#83BD75;
+}
+.logoAyush{
+    width: 70px;
+}
+/* .logo{
+  padding: 10px;
+  padding-top:13px;
+} */
+.title_navbar{
+color:black;
+align-items: center;
+
+}
+.title_navbar1{
+    padding-top: 10px;
+  font-size: xx-large;
+  font-weight:600;
+}
+.title_navbar2{
+  font-size:16px;
+}
+.navbarlinks{
+    font-size:17px;
+    font-weight: bold;
+  color:black;
+}
+.navbarlinks:focus{
+  color:rgb(0, 0, 0);
+}
+.navbaritems{
+  padding-left:2rem;
+}
+.form{
+
+    position: relative;
+}
+
+.form .fa-search{
+
+    position: absolute;
+    top:20px;
+    left: 20px;
+    color: #9ca3af;
+
+}
+
+.form span{
+
+        position: absolute;
+    right: 17px;
+    top: 13px;
+    padding: 2px;
+    border-left: 1px solid #d1d5db;
+
+}
+
+.left-pan{
+    padding-left: 7px;
+}
+
+.left-pan i{
+   
+   padding-left: 10px;
+}
+
+.form-input{
+
+    height: 55px;
+    text-indent: 33px;
+    border-radius: 10px;
+}
+
+.form-input:focus{
+
+    box-shadow: none;
+    border:none;
+}
+.name{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.disease h1{
+    margin-right: 12px;
+    padding-right: 50px;
+    font-size:2rem;
+    font-weight: bolder;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:480px){
+    .logoAyush{
+        width: 60px;
+    }
+    .title{
+        color:white;
+        padding-top:10px;
+        padding-left:30px;
+        margin: 0px;
+      }
+      .title_navbar1{
+        padding-top: 10px;
+        padding-left: 5px;
+      font-size: xx-large;
+      font-weight:600;
+    }
+}
+.backGroundHome{
+    background-image:url('./images/backGround.jpg');
+    height: 400px;
+    display: flex; /* Use flexbox to center align content */
+    justify-content: center; /* Center horizontally */
+    align-items: center; 
+}
