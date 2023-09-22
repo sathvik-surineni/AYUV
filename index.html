@@ -7,6 +7,9 @@
     <title>AYUV</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="./images/AYUV LOGO.png" type="image/x-icon">
 </head>
@@ -36,13 +39,10 @@
                                 <a class="nav-link navbarlinks" href="#home">Home</a>
                             </li>
                             <li class="nav-item navbaritems">
-                                <a class="nav-link navbarlinks" href="./Events.html">Blogs</a>
+                                <a class="nav-link navbarlinks" href="#blog">Blogs</a>
                             </li>
                             <li class="nav-item navbaritems">
-                                <a class="nav-link navbarlinks" href="./Hackatons.html">Services</a>
-                            </li>
-                            <li class="nav-item navbaritems">
-                                <a class="nav-link navbarlinks" href="./Registration.html">FAQ</a>
+                                <a class="nav-link navbarlinks" href="#">FAQ</a>
                             </li>
                             </li>
                         </ul>
@@ -53,17 +53,24 @@
     </nav>
     <!-- background image -->
     <div class="container-fluid backGroundHome">
-        <input type="text" id="searchInput1" placeholder="Enter value 1">
-        <select id="searchInput2" disabled>
+        <input type="text" id="searchInput1" placeholder="Enter disease.." class="searchBar">
+        <select id="searchInput2" disabled class="selectBarNav">
             <option value="" disabled selected>Select an option</option>
         </select>
-        <button onclick="redirectToPage()">Go</button>
-    
+        <button onclick="redirectToPage()" class="searchButton"><svg xmlns="http://www.w3.org/2000/svg" height="2em"
+                viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <style>
+                    svg {
+                        fill: #2d9551
+                    }
+                </style>
+                <path
+                    d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
+            </svg></button>
+
 
     </div>
     <!-- maincontent -->
-
-    <body>
         <div class="container">
             <h1 class="name p-4">About</h1>
 
@@ -72,7 +79,8 @@
                     <img src="./images/Classical-Ayurvedic-Medicine.webp" alt="">
                 </div>
                 <div class="col-7">
-                    <p class="pt-2 ">Ayurveda is an ancient Indian system of medicine focusing on a holistic approach. It involves
+                    <p class="pt-2 ">Ayurveda is an ancient Indian system of medicine focusing on a holistic approach.
+                        It involves
                         balancing three doshas, Vata, Pitta, and Kapha, to maintain well-being. It's rooted in the five
                         elements and aims to align one's Vikriti with one's Prakriti.
                         Diagnosis includes pulse reading, tongue examination, and lifestyle assessment. Treatments
@@ -92,8 +100,47 @@
                 </div>
             </div>
         </div>
+        <div id="blog">
+        <h1 class="text-center p-5 blogName">Blog</h1>
+        <div class="container">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="card text-bg-dark">
+                    <img src="./Blogsimg/Mind-wellbeing.jpg" class="card-img w-100" height="500px"  alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title text-dark">Exploring Anxiety Ayurvedic Treatment</h5>
+                      <p class="card-text text-dark">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      
+                    </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card text-bg-dark">
+                    <img src="./Blogsimg/1694509389-Pregnancy.jpg" class="card-img w-100" height="500px"  alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title text-dark">Best Ayurvedic Clinic for Infertility</h5>
+                      <p class="card-text text-dark">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      
+                    </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card text-bg-dark">
+                    <img src="./Blogsimg/1694509371-Overweight.jpg" class="card-img w-100" height="500px"  alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title text-dark">Obesity Treatment in Ayurveda</h5>
+                      <p class="card-text text-dark">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> 
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    </div>
     </body>
-<script src="./script.js"></script>
+    <script src="./script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
