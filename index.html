@@ -39,6 +39,9 @@
                                 <a class="nav-link navbarlinks" href="#home">Home</a>
                             </li>
                             <li class="nav-item navbaritems">
+                                <a class="nav-link navbarlinks" href="#yoga">Yoga</a>
+                            </li>
+                            <li class="nav-item navbaritems">
                                 <a class="nav-link navbarlinks" href="#blog">Blogs</a>
                             </li>
                             <li class="nav-item navbaritems">
@@ -54,9 +57,12 @@
     <!-- background image -->
     <div class="container-fluid backGroundHome">
         <input type="text" id="searchInput1" placeholder="Enter disease.." class="searchBar">
+        <div class="searchbars">
         <select id="searchInput2" disabled class="selectBarNav">
             <option value="" disabled selected>Select an option</option>
         </select>
+    </div>
+    <div>
         <button onclick="redirectToPage()" class="searchButton"><svg xmlns="http://www.w3.org/2000/svg" height="2em"
                 viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
                 <style>
@@ -67,83 +73,226 @@
                 <path
                     d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
             </svg></button>
+    </div>
 
 
     </div>
     <!-- maincontent -->
-        <div class="container">
-            <h1 class="name p-4">About</h1>
+    <div class="container">
+        <h1 class="name p-4">About</h1>
 
-            <div class="row">
-                <div class="col-5">
-                    <img src="./images/Classical-Ayurvedic-Medicine.webp" alt="">
-                </div>
-                <div class="col-7">
-                    <p class="pt-2 ">Ayurveda is an ancient Indian system of medicine focusing on a holistic approach.
-                        It involves
-                        balancing three doshas, Vata, Pitta, and Kapha, to maintain well-being. It's rooted in the five
-                        elements and aims to align one's Vikriti with one's Prakriti.
-                        Diagnosis includes pulse reading, tongue examination, and lifestyle assessment. Treatments
-                        involve natural remedies, herbal medicines, diet, yoga, meditation, and Panchakarma. Ayurveda is
-                        highly individualised, recognising each person's uniqueness and treatment is done focusing on
-                        the whole person. In addition, synthetic drugs consisting of antibiotics and steroids may result
-                        in serious adverse effects, such as immunosuppression, gastrointestinal bleeding, and ulcers and
-                        etc., after prolonged administration. Ayurvedic therapies generally provide relief without such
-                        adverse effects, even after prolonged administration. Ayurveda has a long-established presence
-                        in India, and a significant portion of the population relies on Ayurvedic treatments for various
-                        health issues. The use of Ayurveda is deeply ingrained in Indian culture and traditions.
-                        Ayurveda is not just a system of medicine; it is a way of life deeply embedded in the cultural
-                        and traditional fabric of the country. Passed down through generations, Ayurveda's principles
-                        are integrated into daily routines, dietary habits, and wellness practices. It emphasises the
-                        importance of harmony with nature, encouraging individuals to live in accordance with their
-                        unique constitution and the changing seasons.</p>
-                </div>
+        <div class="row">
+            <div class="col-5">
+                <img src="./images/Classical-Ayurvedic-Medicine.webp" alt="">
+            </div>
+            <div class="col-7">
+                <p class="AboutContent">Ayurveda is an ancient Indian system of medicine focusing on a holistic approach.
+                    It involves
+                    balancing three doshas, Vata, Pitta, and Kapha, to maintain well-being. It's rooted in the five
+                    elements and aims to align one's Vikriti with one's Prakriti.
+                    Diagnosis includes pulse reading, tongue examination, and lifestyle assessment. Treatments
+                    involve natural remedies, herbal medicines, diet, yoga, meditation, and Panchakarma. Ayurveda is
+                    highly individualised, recognising each person's uniqueness and treatment is done focusing on
+                    the whole person. In addition, synthetic drugs consisting of antibiotics and steroids may result
+                    in serious adverse effects, such as immunosuppression, gastrointestinal bleeding, and ulcers and
+                    etc., after prolonged administration. Ayurvedic therapies generally provide relief without such
+                    adverse effects, even after prolonged administration. Ayurveda has a long-established presence
+                    in India, and a significant portion of the population relies on Ayurvedic treatments for various
+                    health issues. The use of Ayurveda is deeply ingrained in Indian culture and traditions.
+                    Ayurveda is not just a system of medicine; it is a way of life deeply embedded in the cultural
+                    and traditional fabric of the country. Passed down through generations, Ayurveda's principles
+                    are integrated into daily routines, dietary habits, and wellness practices. It emphasises the
+                    importance of harmony with nature, encouraging individuals to live in accordance with their
+                    unique constitution and the changing seasons.</p>
             </div>
         </div>
-        <div id="blog">
+    </div>
+    <!-- yoga -->
+    <div class="container cardsrecom">
+        <h1 class="text-center p-5 name" id="yoga">YOGA</h1>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 gy-4">
+            <!-- restaurant-1 -->
+            <div class="col">
+                <div class="card h-100 shadow-lg boarder">
+                    <img src="./yogaImg/Padmasana.png" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-8">
+                                <a href="#" class="">Padmasana</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer text-center">
+                        <button class="btn btn-outline-warning" type="button">Know More</button>
+                    </div>
+                </div>
+            </div>
+            <!-- restaurant-2 -->
+            <div class="col">
+                <div class="card h-100 shadow-lg boarder">
+                    <img src="./yogaImg/Padmasana.png" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-8">
+                                <h1 class="nameYoga">Padmasana</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer text-center">
+                        <button class="btn btn-outline-warning" type="button">Know More</button>
+                    </div>
+                </div>
+            </div>
+            <!-- restaurant-3 -->
+            <div class="col">
+                <div class="card h-100 shadow-lg boarder">
+                    <img src="./yogaImg/Padmasana.png" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-8">
+                                <a href="#" class="">Padmasana</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer text-center">
+                        <button class="btn btn-outline-warning" type="button">Know More</button>
+                    </div>
+                </div>
+            </div>
+            <!-- restaurant-4 -->
+            <div class="col">
+                <div class="card h-100 shadow-lg boarder">
+                    <img src="./yogaImg/Padmasana.png" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-8">
+                                <a href="#" class="">Padmasana</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer text-center">
+                        <button class="btn btn-outline-warning" type="button">Know More</button>
+                    </div>
+                </div>
+            </div>
+            <!-- s -->
+            <div class="col">
+                <div class="card h-100 shadow-lg boarder">
+                    <img src="./yogaImg/Padmasana.png" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-8">
+                                <a href="#" class="">Padmasana</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer text-center">
+                        <button class="btn btn-outline-warning" type="button">Know More</button>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="col">
+                <div class="card h-100 shadow-lg boarder">
+                    <img src="./yogaImg/Padmasana.png" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-8">
+                                <a href="#" class="names">Padmasana</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer text-center">
+                        <button class="btn btn-outline-warning" type="button">Know More</button>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="col">
+                <div class="card h-100 shadow-lg boarder">
+                    <img src="./yogaImg/Padmasana.png" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-8">
+                                <a href="#" class="namesYoga">Padmasana</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer text-center">
+                        <button class="btn btn-outline-warning" type="button">Know More</button>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="col">
+                <div class="card h-100 shadow-lg boarder">
+                    <img src="./yogaImg/Padmasana.png" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-8">
+                                <a href="#" class="namesYoga">Padmasana</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer text-center">
+                        <button class="btn btn-outline-warning" type="button">Know More</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="blog">
         <h1 class="text-center p-5 blogName">Blog</h1>
         <div class="container">
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="card text-bg-dark">
-                    <img src="./Blogsimg/Mind-wellbeing.jpg" class="card-img w-100" height="500px"  alt="...">
-                    <div class="card-img-overlay">
-                      <h5 class="card-title text-dark">Exploring Anxiety Ayurvedic Treatment</h5>
-                      <p class="card-text text-dark">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card text-bg-dark">
+                            <img src="./Blogsimg/Mind-wellbeing.jpg" class="card-img w-100" height="500px" alt="...">
+                            <div class="card-img-overlay">
+                                <h5 class="card-title text-dark">Exploring Anxiety Ayurvedic Treatment</h5>
+                                <p class="card-text text-dark">This is a wider card with supporting text below as a
+                                    natural lead-in to additional content. This content is a little bit longer.</p>
+
+                            </div>
+                        </div>
                     </div>
-                  </div>
-              </div>
-              <div class="carousel-item">
-                <div class="card text-bg-dark">
-                    <img src="./Blogsimg/1694509389-Pregnancy.jpg" class="card-img w-100" height="500px"  alt="...">
-                    <div class="card-img-overlay">
-                      <h5 class="card-title text-dark">Best Ayurvedic Clinic for Infertility</h5>
-                      <p class="card-text text-dark">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      
+                    <div class="carousel-item">
+                        <div class="card text-bg-dark">
+                            <img src="./Blogsimg/1694509389-Pregnancy.jpg" class="card-img w-100" height="500px"
+                                alt="...">
+                            <div class="card-img-overlay">
+                                <h5 class="card-title text-dark">Best Ayurvedic Clinic</h5>
+                                <p class="card-text text-dark">This is a wider card with supporting text below as a
+                                    natural lead-in to additional content. This content is a little bit longer.</p>
+
+                            </div>
+                        </div>
                     </div>
-                  </div>
-              </div>
-              <div class="carousel-item">
-                <div class="card text-bg-dark">
-                    <img src="./Blogsimg/1694509371-Overweight.jpg" class="card-img w-100" height="500px"  alt="...">
-                    <div class="card-img-overlay">
-                      <h5 class="card-title text-dark">Obesity Treatment in Ayurveda</h5>
-                      <p class="card-text text-dark">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> 
+                    <div class="carousel-item">
+                        <div class="card text-bg-dark">
+                            <img src="./Blogsimg/1694509371-Overweight.jpg" class="card-img w-100" height="500px"
+                                alt="...">
+                            <div class="card-img-overlay">
+                                <h5 class="card-title text-dark">Obesity Treatment in Ayurveda</h5>
+                                <p class="card-text text-dark">This is a wider card with supporting text below as a
+                                    natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-              </div>
+                </div>
             </div>
-          </div>
         </div>
     </div>
     </div>
-    </body>
-    <script src="./script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+
+
+</body>
+<script src="./script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 
 </body>
 

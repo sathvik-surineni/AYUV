@@ -8,7 +8,8 @@ const optionsMapping = {
     constipation:["none"],
     dengue:["none"],
     epilepsy:["none"],
-    diabetes:["type1","type2"]
+    diabetes:["type1","type2"],
+    jaundice:["none"]
     // Add more mappings as needed
 };
 function populateDropdown() {
